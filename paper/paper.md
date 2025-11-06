@@ -1,36 +1,76 @@
 ---
-title: 'BioHackEU23 report: Template for the very long title'
-title_short: 'BioHackEU23 #26: unknown chemical substances'
+title: 'Towards a more scalable, sustainable, and integrated Research Data Management Ecosystem'
+title_short: 'Towards a more scalable, sustainable, and integrated RDM Ecosystem'
 tags:
-  - cheminformatics
-  - PubChem
-  - unknown chemical substances
+  - RDMkit
+  - Data Stewardship Wizard (DSW)
+  - Interoperability
+  - Sustainability
+  - Research Data Management
 authors:
-  - name: First Author
+  # Project leads in the same order as in abstract
+  - name: Bert Droesbeke
+    orcid: 0000-0003-0522-5674
     affiliation: 1
-    role: Writing – original draft
-  - name: Last Author
-    orcid: 0000-0000-0000-0000
+  - name: Jan Slifka
+    orcid: 0000-0002-4941-0575
     affiliation: 2
-    role: Conceptualization, Writing – review & editing
+  - name: Federico Bianchini
+    orcid: 0000-0002-9016-4820
+    affiliation: 3
+  # Project participants in alphabetical order
+  - name: Adel Bouhraoua
+    orcid: 0000-0001-9531-6339
+    affiliation: 4
+  - name: Ramon Granell
+    orcid: 0000-0001-9572-0972
+    affiliation: 5
+  - name: Allyson Lister
+    orcid: 0000-0002-7702-4495
+    affiliation: 5
+  - name: Diana Pilvar
+    orcid: 0000-0002-5788-2687
+    affiliation: 6
+  - name: Ulrike Wittig
+    orcid: 0000-0002-9077-5664
+    affiliation: 7
+  - name: Mehdi Zoubiri
+    orcid: 0009-0009-3602-3558
+    affiliation: 4
 affiliations:
-  - name: First Affiliation
+  - name: VIB
+    ror: 03xrhmk39
     index: 1
-  - name: ELIXIR Europe
-    ror: 044rwnt51
+  - name: Czech Technical University in Prague
+    ror: 03kqpb082
     index: 2
-date: 8 November 2023
+  - name: University of Oslo
+    ror: 01xtthb56
+    index: 3
+  - name: University of Padova
+    ror: 00240q980
+    index: 4
+  - name: University of Oxford
+    ror: 052gg0110
+    index: 5
+  - name: University of Tartu
+    ror: 03z77qz90
+    index: 6
+  - name: Heidelberg Institute for Theoretical Studies
+    ror: 01f7bcy98
+    index: 7
+date: 7 November 2025
 cito-bibliography: paper.bib
-event: BH23EU
-biohackathon_name: "BioHackathon Europe 2023"
-biohackathon_url:   "https://biohackathon-europe.org/"
-biohackathon_location: "Barcelona, Spain, 2023"
-group: Project 26
+event: BH25EU
+biohackathon_name: "BioHackathon Europe"
+biohackathon_url: "https://biohackathon-europe.org/"
+biohackathon_location: "Berlin, Germany, 2025"
+group: Project 27
 # URL to project git repo --- should contain the actual paper.md:
-git_url: https://github.com/biohackrxiv/publication-template
+git_url: https://github.com/janslifka/bh2025-project27-report
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
-authors_short: First Author \emph{et al.}
+authors_short: Bert Droesbeke, Jan Slifka, \emph{et al.}
 ---
 
 

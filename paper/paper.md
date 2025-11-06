@@ -73,6 +73,95 @@ git_url: https://github.com/janslifka/bh2025-project27-report
 authors_short: Bert Droesbeke, Jan Slifka, \emph{et al.}
 ---
 
+# Introduction
+
+The Research Data Management toolkit for Life Sciences (RDMkit) is a community-driven online resource that supports researchers in managing their data effectively throughout the research process. Over time, both RDMkit and the broader Research Data Management (RDM) ecosystem have expanded significantly—growing in contributors, content, and user engagement. This growth has created new opportunities to enhance scalability, interoperability, and sustainability across interconnected resources.
+
+This hackathon project aimed to address these challenges through a holistic approach, focusing on both technical and editorial aspects of the RDM ecosystem. On the technical side, participants explored improvements to navigation, interoperability, and the sustainability of links and references across resources such as RDMkit, Data Stewardship Wizard (DSW), and FAIRsharing. On the process side, the project examined editorial attribution, citation practices, and governance models to strengthen collaboration and consistency across ELIXIR Toolkit Theme (ETT) resources.
+
+The hackathon covered seven key topics:
+
+1. Revising editorial attribution in RDMkit and ETT
+2. Improving RDMkit navigation and overall UX
+3. Making DSW knowledge-model links more sustainable
+4. Strengthening linkage between RDMkit and DSW instances
+5. Defining best practices for citing training materials (TeSS)
+6. Developing an ecosystem-wide editorial process
+7. Enhancing integration between RDMkit and FAIRsharing
+
+Together, these efforts aim to ensure that RDMkit and related platforms continue to evolve as interoperable, sustainable, and community-driven resources for the research data management community.
+
+
+
+# 1. Revising editorial attribution in RDMkit and ETT
+
+TODO: Write this section.
+
+
+
+# 2. Improving RDMkit navigation and overall UX
+
+TODO: Write this section.
+
+
+
+# 3. Making DSW knowledge-model links more sustainable
+
+TODO: Write this section.
+
+
+
+# 4. Strengthening linkage between RDMkit and DSW instances
+
+TODO: Write this section.
+
+
+
+# 5. Defining best practices for citing training materials (TeSS)
+
+TODO: Write this section.
+
+
+
+# 6. Developing an ecosystem-wide editorial process
+
+TODO: Write this section.
+
+
+
+# 7. Enhancing integration between RDMkit and FAIRsharing
+
+TODO: Write this section.
+
+
+
+# Results and Outcomes
+
+TODO: Summarize the key tangible outcomes of the hackathon across all topics.
+
+
+
+# Discussion
+
+TODO: Reflect on broader insights gained during the hackathon.
+
+
+
+# Future Work
+
+TODO: Outline next steps to continue momentum beyond the hackathon.
+
+
+
+# Conclusions
+
+TODO: Provide a concise synthesis of the project’s significance.
+
+
+
+---
+
+*Everything below will be removed, it's kept here just to see the instructions before we finish the report*
 
 # Introduction
 

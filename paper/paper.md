@@ -105,9 +105,32 @@ TODO: Write this section.
 
 
 
-# 3. Making DSW knowledge-model links more sustainable
+# 3. Making DSW Knowledge-Model Links More Sustainable
 
-TODO: Write this section.
+Ensuring the long-term reliability of references within the **Data Stewardship Wizard (DSW)** is essential for maintaining the integrity and usability of linked resources across the RDM ecosystem. Since DSW Knowledge Models (KMs) frequently reference materials from **RDMkit** and other platforms, broken or outdated links can compromise user trust and hinder data stewardship workflows. This section describes the work carried out during the hackathon to improve the sustainability of these links through automated link validation within the DSW KM Editor.
+
+## Problem
+Links within **Data Stewardship Wizard (DSW) Knowledge Models**—including references to RDMkit—can become invalid over time, resulting in broken URLs that undermine reliability. Currently, there is no automated mechanism to detect or report these invalid links, which makes ongoing maintenance difficult and error-prone.
+
+## Suggested Solution
+To address this issue, we proposed adding a **link-checking functionality** directly into the **DSW Knowledge Model (KM) Editor**. This feature would automatically test the accessibility of URLs used in Knowledge Models and flag potential issues such as network errors, *404 Not Found* responses, or links that do not resolve to valid HTML pages. By providing real-time feedback, the tool would support editors in maintaining high-quality, sustainable references.
+
+## Mocks and Drafts
+As a first step, we prototyped a **script or module** capable of scanning all URL references within a Knowledge Model. The script checks HTTP responses and assigns a simple status indicator to each link:  
+- **OK** – the link is accessible and valid.  
+- **Broken** – the link returns an error or invalid response.  
+
+This prototype demonstrated how automated validation could be integrated seamlessly into the existing DSW KM Editor workflow.
+
+## Discussion
+During discussions, we evaluated different strategies for running link checks: automatically on save, on a scheduled basis, or manually upon user request. The team decided to implement a **manual, on-demand check**, as large Knowledge Models may contain many links, making automated validation time-consuming. Running checks on demand allows users to initiate verification when convenient, ensuring that performance and usability are not compromised.  
+Warnings and link status indicators were designed to appear in the **KM Editor side panel**, providing clear visibility without cluttering the main editing interface.
+
+![URL Checker implemented in DSW KM Editor](./figures/dsw-url-checker.png)
+
+## Implementation and Results
+The link-checking feature was integrated into the DSW KM Editor and tested with the **Common DSW Knowledge Model** and several **Life Sciences Knowledge Models**. During testing, no broken links to RDMkit were detected, confirming the reliability of existing references. However, a few invalid links were identified in other sections of the Common and Life Sciences Knowledge Models. These findings highlight the need for **future maintenance efforts** to repair or update affected links and validate the effectiveness of the new feature in improving long-term sustainability.
+
 
 
 
@@ -306,17 +329,17 @@ given before the table itself.
 A figure is added with:
 
 ```markdown
-![Caption for BioHackrXiv logo figure](./biohackrxiv.png)
+![Caption for BioHackrXiv logo figure](./figures/biohackrxiv.png)
 ```
 
 This gives:
 
-![Caption for BioHackrXiv logo figure](./biohackrxiv.png)
+![Caption for BioHackrXiv logo figure](./figures/biohackrxiv.png)
 
 Figures can be scaled by adding the width or height to the Markdown like this:
 
 ```markdown
-![Caption for BioHackrXiv logo figure](./biohackrxiv.png){ width=50px }
+![Caption for BioHackrXiv logo figure](./figures/biohackrxiv.png){ width=50px }
 ```
 
 # Other main section on your manuscript level 1

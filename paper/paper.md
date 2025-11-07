@@ -37,6 +37,9 @@ authors:
   - name: Mehdi Zoubiri
     orcid: 0009-0009-3602-3558
     affiliation: 4
+  - name: Francesco Tabaro
+    orcid: 0000-0002-7559-5585
+    affiliation: 8
 affiliations:
   - name: VIB
     ror: 03xrhmk39
@@ -59,6 +62,9 @@ affiliations:
   - name: Heidelberg Institute for Theoretical Studies
     ror: 01f7bcy98
     index: 7
+  - name: European Molecular Biology Laboratory
+    ror: 01yr73893
+    index: 8
 date: 7 November 2025
 cito-bibliography: paper.bib
 event: BH25EU
